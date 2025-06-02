@@ -1,0 +1,62 @@
+# Common build directories
+/target/
+/out/
+
+# IntelliJ IDEA
+.idea/
+/*.iml
+
+# Eclipse
+/.project
+/.classpath
+/.settings/
+
+# VS Code
+.vscode/
+
+# Maven
+*.log
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.pdb
+/.mvn/
+
+# Gradle
+.gradle/
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Spring Boot specific files
+spring-boot-devtools/
+
+# H2 database
+*.h2.db
+
+# IDE specific files
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+*.dockerfile
+.docker/
+
+# Application secrets
+*.properties
+*.yml
+*.yaml
+
+# Other environment-specific files
+.env
