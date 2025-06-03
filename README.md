@@ -4,8 +4,8 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Microservices-brightgreen?style=for-the-badge&logo=spring)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql)
 ![Eureka](https://img.shields.io/badge/Eureka-Service%20Discovery-orange?style=for-the-badge&logo=spring)
-![JWT](https://img.shields.io/badge/JWT-Authentication-yellow?style=for-the-badge&logo=jsonwebtokens)
-![Docker](https://img.shields.io/badge/Docker-Containerized-lightblue?style=for-the-badge&logo=docker)
+<!--![JWT](https://img.shields.io/badge/JWT-Authentication-yellow?style=for-the-badge&logo=jsonwebtokens)-->
+<!--![Docker](https://img.shields.io/badge/Docker-Containerized-lightblue?style=for-the-badge&logo=docker)-->
 
 A fully modularized HR management platform inspired by **Zoho People**, built using Spring Boot Microservices, PostgreSQL, and API Gateway architecture.
 
@@ -15,7 +15,7 @@ A fully modularized HR management platform inspired by **Zoho People**, built us
 
 | Microservice         | Port  | Responsibility |
 |----------------------|-------|----------------|
-| 🛡️ Auth Service       | 8081  | User login, registration, JWT validation |
+| 🛡️ Auth Service       | 8081  | User login, registration|
 | 🏢 Organization Service | 8082  | Manage organizations, licenses |
 | 👨‍💼 Employee Service   | 8083  | Employees, Onboarding, Leave, Shift, Timesheet |
 | 💰 Payroll Service     | 8084  | Performance, Payroll, Expenses |
